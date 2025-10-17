@@ -3,6 +3,29 @@ body{
     text-align: center;
 }
 
-.form{
-    
+.Form{
+    background-color: wheat;
+    padding: 20px;
+    /*width: 200px;*/
+    text-align: center;
+}
+
+.nav{
+    background-color: aliceblue;
+    padding: 20px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.inicio{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.storage{
+    margin: 50px;
+}
+
+.mensaje{
+    color: brown;
 }

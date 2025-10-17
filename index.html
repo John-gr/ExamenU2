@@ -7,38 +7,41 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header class="inicio">
+    <header class="inicio" id="inicio">
         <h1>Formulario</h1>
         <nav class="nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#Form">Formulario</a>
         </nav>
     </header>
     <main>
-        <article class="Form">
-            <section>
-                <Form>
+        <div class="storage"></div>
+        <article class="inputs">
+<h3>.</h3>            <section id="Form" class="Form">
+                <h3>Ingrese sus datos</h3>
                     <label for="nombre">Nombre</label>
-                    <input type="text" class="nombre" id="nombre">
+                    <input type="text" class="nombre" id="nombre" required>
                     <br>
                     <label for="email">Email</label>
-                    <input type="email" class="email" id="email">
+                    <input type="email" class="email" id="email" required>
                     <br>
                     <label for="edad">Edad</label>
-                    <input type="number" class="edad" id="edad">
+                    <input type="number" class="edad" id="edad" required min="0" max="100">
                     <br>
-                    <label for="pais">Pais</label>
-                    <input type="text" class="pais" id="pais">
+                    <label for="paises">Pais</label>
+                    <input type="text" class="paises" id="paises" required>
                     <br>
                     <Button class="btnAceptar">Aceptar</Button>
-                </Form>
             </section>
         </article>
         <section class="mensaje">
-
+            <h2>Mensaje</h2>
         </section>
     </main>
     <footer class="footer">
-        <p>Jonathan Gutierrez Reynoso</p>
-        <p>Todos los derechos reservados</p>
+        <br>
+        <a href="https://github.com/John-gr">Github</a>
+        <p>@c Jonathan Gutierrez Reynoso</p>
     </footer>
     <script src="/js/app.js"></script>
 </body>
