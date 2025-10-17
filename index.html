@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen U2</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header>
+    <header class="inicio">
         <h1>Formulario</h1>
-        <nav></nav>
+        <nav class="nav">
+        </nav>
     </header>
     <main>
         <article class="Form">
             <section>
                 <Form>
                     <label for="nombre">Nombre</label>
-                    <input type="text" class="nombre" required>
+                    <input type="text" class="nombre" id="nombre">
+                    <br>
                     <label for="email">Email</label>
-                    <input type="email" name="email" class="email">
+                    <input type="email" class="email" id="email">
+                    <br>
                     <label for="edad">Edad</label>
-                    <input type="number" class="edad">
+                    <input type="number" class="edad" id="edad">
+                    <br>
                     <label for="pais">Pais</label>
-                    <input type="text" class="pais">
+                    <input type="text" class="pais" id="pais">
+                    <br>
+                    <Button class="btnAceptar">Aceptar</Button>
                 </Form>
             </section>
         </article>
@@ -33,5 +40,6 @@
         <p>Jonathan Gutierrez Reynoso</p>
         <p>Todos los derechos reservados</p>
     </footer>
+    <script src="/js/app.js"></script>
 </body>
 </html>
